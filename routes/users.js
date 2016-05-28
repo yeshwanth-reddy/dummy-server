@@ -4,6 +4,7 @@ var router = express.Router();
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   res.json({
+    "workout-name": "Workout-1",
   "Routine Type": "Weekly",
   "Monday": {
   	"Target Muscle":"Legs",
