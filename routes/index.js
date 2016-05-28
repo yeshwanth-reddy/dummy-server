@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.json({"status":"success","data":"picha lite faculty"})
 });
 
+router.post('/', function(req, res, next) {
+  res.json({"status":"success","data":"picha lite faculty"})
+});
+
 module.exports = router;
